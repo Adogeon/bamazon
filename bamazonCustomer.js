@@ -67,7 +67,7 @@ connection.connect(function(err) {
                         } else {
                             console.log("Insufficient quantity");
                         }
-                        break;
+                        return;
                     }
                 })
             connection.end();
